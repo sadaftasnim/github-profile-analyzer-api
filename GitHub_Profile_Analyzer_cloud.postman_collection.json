@@ -53,12 +53,13 @@
         "method": "POST",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/api/github/analyze/Quasim12",
-          "protocol": "http",
+          "raw": "https://github-profile-analyzer-api-k6he.onrender.com/api/github/analyze/Quasim12",
+          "protocol": "https",
           "host": [
-            "localhost"
+            "github-profile-analyzer-api-k6he",
+            "onrender",
+            "com"
           ],
-          "port": "3000",
           "path": [
             "api",
             "github",
@@ -75,12 +76,13 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/api/github/profiles",
-          "protocol": "http",
+          "raw": "https://github-profile-analyzer-api-k6he.onrender.com/api/github/profiles",
+          "protocol": "https",
           "host": [
-            "localhost"
+            "github-profile-analyzer-api-k6he",
+            "onrender",
+            "com"
           ],
-          "port": "3000",
           "path": [
             "api",
             "github",
@@ -96,12 +98,13 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/api/github/profiles/Quasim12",
-          "protocol": "http",
+          "raw": "https://github-profile-analyzer-api-k6he.onrender.com/api/github/profiles/Quasim12",
+          "protocol": "https",
           "host": [
-            "localhost"
+            "github-profile-analyzer-api-k6he",
+            "onrender",
+            "com"
           ],
-          "port": "3000",
           "path": [
             "api",
             "github",
