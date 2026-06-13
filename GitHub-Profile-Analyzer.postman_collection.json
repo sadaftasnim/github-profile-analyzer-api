@@ -1,0 +1,116 @@
+{
+  "info": {
+    "_postman_id": "8a7ae3db-fd90-4b1a-90c2-9c6512c98b84",
+    "name": "GitHub APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "44944674"
+  },
+  "item": [
+    {
+      "name": "Fetch GitHub Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/sadaftasnim",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            "sadaftasnim"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Fetch GitHub Profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Store Insights and save in MySQL",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/github/analyze/Quasim12",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "github",
+            "analyze",
+            "Quasim12"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API to fetch all profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/github/profiles",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "github",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API to fetch single profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/github/profiles/Quasim12",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "github",
+            "profiles",
+            "Quasim12"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
